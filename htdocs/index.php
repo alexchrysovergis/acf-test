@@ -1,5 +1,13 @@
 <?php get_header();?>
   
-  <p>This is the body</p>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Hello</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
 <?php get_footer();?>
