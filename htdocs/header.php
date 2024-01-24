@@ -14,7 +14,8 @@
         <div class="d-flex justify-content-center">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+             <?php wp_nav_menu(array('theme_location' => 'headerMenuLocation'));
+            ?>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Fashion</a>

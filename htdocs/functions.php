@@ -6,5 +6,5 @@ function acf_files(){
 }
 
 add_action('wp_enqueue_scripts', 'acf_files');
-
+register_nav_menu('headerMenuLocation', 'Header Menu Location');
 ?>
