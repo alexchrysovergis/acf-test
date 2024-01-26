@@ -6,10 +6,10 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-  <header>
+  <header class="bg-dark">
     <div class="container-fluid p-3">
       <nav class="navbar navbar-expand-lg d-flex justify-content-between align-items-center">
-        <a class="navbar-brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
+        <a class="navbar-brand text-light" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
 
         <div class="d-flex justify-content-center">
           <ul class="navbar-nav">
@@ -18,13 +18,13 @@
             ?>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Fashion</a>
+              <a class="nav-link text-light" href="#">Fashion</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
+              <a class="nav-link text-light" href="#">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link text-light" href="#">Contact</a>
             </li>
           </ul>
         </div>
