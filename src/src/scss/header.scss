@@ -1,10 +1,25 @@
+@import 'variables';
+.website-header{
+  background-color: map-get($theme-colors, secondary);
+  a.navbar-brand {
+  color: map-get($theme-colors, primary);
+  @extend %smooth-hover;
+    &:hover{
+      opacity: .8;
+    }
+  }
 .menu-menu-1-container #menu-menu-1 li a {
-      color: white;
-      text-decoration: none;
-}
-
+  color: map-get($theme-colors, primary);
+  text-decoration: none;
+  @extend %smooth-hover;
+    &:hover{
+      opacity: .8;
+    }
+  }
+      
 .menu-menu-1-container #menu-menu-1 li {
-      display: inline;
-      margin-left: 10px;
+  display: inline;
+  margin-left: 10px;
+  }
 }
 

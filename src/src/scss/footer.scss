@@ -1,0 +1,15 @@
+@import 'variables';
+.website-footer{
+  background-color: map-get($theme-colors, secondary);
+  p {
+    color: map-get($theme-colors, primary);
+  }
+  a{
+    color: map-get($theme-colors, primary);
+    text-decoration: none;
+    @extend %smooth-hover;
+    &:hover{
+      opacity: .8;
+    }
+  }
+}
