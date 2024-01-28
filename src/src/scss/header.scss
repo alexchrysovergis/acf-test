@@ -2,4 +2,15 @@
 html, body {
       margin: 0 !important;
       padding: 0 !important;
+
+.menu-menu-1-container #menu-menu-1 li a {
+      color: white;
+      text-decoration: none;
+}
+
+.menu-menu-1-container #menu-menu-1 li {
+      display: inline;
+      margin-left: 10px;
+}
+
 }

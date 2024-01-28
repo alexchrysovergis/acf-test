@@ -2,7 +2,6 @@
 
 function acf_files(){
   wp_enqueue_style('acf_styles', get_theme_file_uri('../src/dist/css/styles.css')); 
-  
 }
 
 add_action('wp_enqueue_scripts', 'acf_files');
