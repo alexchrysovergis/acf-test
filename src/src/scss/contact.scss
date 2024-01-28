@@ -1,0 +1,16 @@
+.page-id-26 {
+  label, input:not([type="submit"]), textarea {
+    width: 100%;
+  }
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+  }
+  label{
+    margin-bottom: 5px;
+  }
+  input:not([type="submit"]), textarea {
+    margin-top: 7px;
+    padding: .75em;
+  }
+}
