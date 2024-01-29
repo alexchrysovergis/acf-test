@@ -4,7 +4,8 @@ Template Name: Front Page
 */
 get_header();?>
   
-  <?php
+<div class="container-fluid hero-carousel">
+<?php
 if (have_rows('slider')) :
     ?>
     <div id="acf-test-carousel" class="carousel slide" data-bs-ride="carousel">
@@ -41,8 +42,6 @@ else :
     echo 'No sliders found';
 endif;
 ?>
-
-
-
+</div> 
 <?php get_footer();?>
 

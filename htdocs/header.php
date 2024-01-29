@@ -6,10 +6,10 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-  <header class="bg-dark">
+  <header class="website-header">
     <div class="container-fluid p-3">
       <nav class="navbar navbar-expand-lg d-flex justify-content-between align-items-center">
-        <a class="navbar-brand text-light" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
+        <a class="navbar-brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
 
         <div class="d-flex justify-content-center">
           <ul class="navbar-nav">
